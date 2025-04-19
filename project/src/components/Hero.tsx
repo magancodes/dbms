@@ -49,8 +49,8 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="absolute top-0 right-0 m-6 text-netflix-light font-mono text-xs">
-        <span className="block">// BRUTALIST_DESIGN</span>
-        <span className="block">// NETFLIX_THEME</span>
+        <span className="block">//*%^%@^%^@$//</span>
+        <span className="block">//#%@@$%$@%^$@^//</span>
       </div>
     </div>
   );
