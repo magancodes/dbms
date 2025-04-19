@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import ViewPPT from './ViewPPT';
+import ViewButton from './ViewPPT';
 
 const Hero: React.FC = () => {
   const [visible, setVisible] = useState(false);
@@ -40,7 +41,11 @@ const Hero: React.FC = () => {
           <span className="block text-5xl md:text-7xl lg:text-8xl xl:text-9xl">PROJECT</span>
           <span className="block text-xl md:text-3xl mt-2 text-netflix-light">&lt;/DATABASE&gt;</span>
         </h1>
-        <ViewPPT link="https://drive.google.com/file/d/1qlj9rvQsZLwXvACDJqBY4U93rkHQCG3B/view?usp=sharing" />
+        <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-8">
+        <ViewButton link="https://drive.google.com/file/d/1qlj9rvQsZLwXvACDJqBY4U93rkHQCG3B/view?usp=sharing" icon = "ppt" />
+        <ViewButton link="https://github.com/thefcraft/Efficia" icon = "github" />
+        </div>
+
       </div>
 
       <div 
